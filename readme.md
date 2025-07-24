@@ -22,4 +22,4 @@ Permet d'afficher les commits bien grouper et facile à lire
 
 ## Images
 
-![image de github ](image/images.jpeg)
+![image de github ](/image/images.jpeg)
