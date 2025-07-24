@@ -22,4 +22,6 @@ Permet d'afficher les commits bien grouper et facile à lire
 
 ## Images
 
-![image de github ](/image/images.jpeg)
+<img src="image/images.jpeg" alt="image de github" width="200"/>
+ 
+
