@@ -15,3 +15,5 @@ Le message est important
 Permettent  de pousser les enrégistrement locale sur  github
 ## git status
 Permet de lister les modifications
+## git log
+Permet d'afficher les commits
