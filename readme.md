@@ -7,3 +7,6 @@ Ajouter d'un fichier dans le Stagging
 
 ## git add .
 Ajouter de tous les fichiers dans le Stagging
+## git commit -m" message de commmit"
+Permet d'enrégistrer un fichier de  Stagging en local
+Le message est important
