@@ -10,8 +10,8 @@ Ajouter de tous les fichiers dans le Stagging
 ## git commit -m" message de commmit"
  - Permet d'enrégistrer un fichier de  Stagging en local
  - Le message est important
-## git remote +url ####( une seule fois)
-## git push        #### (chaque fois)
+## 1. git remote +url <small>(une seule fois)</small> 
+## 2. git push        <sub><small>(chaque fois)</small></sub>
 Permettent  de pousser les enrégistrement locale sur  github
 ## git status
 Permet de lister les modifications
