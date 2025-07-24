@@ -17,3 +17,5 @@ Permettent  de pousser les enrégistrement locale sur  github
 Permet de lister les modifications
 ## git log
 Permet d'afficher les commits
+## git log --oneline
+Permet d'afficher les commits bien grouper et facile à lire
