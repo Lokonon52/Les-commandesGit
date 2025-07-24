@@ -13,3 +13,5 @@ Le message est important
 ## git remote +url 
 ## git push
 Permettent  de pousser les enrégistrement locale sur  github
+## git status
+Permet de lister les modifications
