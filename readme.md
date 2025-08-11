@@ -1,6 +1,6 @@
 # 🧰 Aide-mémoire Git
 
-## Initialisation & ajout de fichiers
+## A-Initialisation & ajout de fichiers
 
 - `git init`  
   Initialise un nouveau dépôt Git dans le dossier courant.
@@ -29,7 +29,7 @@
 
 ---
 
-## Gestion des branches
+## B-Gestion des branches
 
 - `git branch`  
   Liste les branches locales, indique la branche courante.
@@ -57,7 +57,7 @@
 
 ---
 
-## Configuration des dépôts distants & push
+## C-Configuration des dépôts distants & push
 
 - `git remote add origin <url>`  
   Configure l’URL du dépôt distant (à faire une seule fois).
@@ -76,7 +76,7 @@
 
 ---
 
-##  raccourci  :
+## D-raccourci  :
 
 ---
 
@@ -164,7 +164,7 @@ Tu peux aussi simplement changer de branche existante avec :
 git switch <nom_branche>
 ```
 
-## Annuler et revenir en arrière
+##E-Annuler et revenir en arrière
 
 - `git reset HEAD <fichier>`  
   Retire un fichier de la zone de staging (préparation).
@@ -180,7 +180,7 @@ git switch <nom_branche>
 
 ---
 
-## Autres commandes utiles
+## F-Autres commandes utiles
 
 - `git stash`  
   Sauvegarde temporairement les modifications non commités.
@@ -193,7 +193,7 @@ git switch <nom_branche>
 
 ---
 
-## Supprimer une branche
+## G- Supprimer une branche
 
 ```bash
 # Supprimer une branche distante (GitHub)
