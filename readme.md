@@ -164,7 +164,7 @@ Tu peux aussi simplement changer de branche existante avec :
 git switch <nom_branche>
 ```
 
-##F-Annuler et revenir en arrière
+## F-Annuler et revenir en arrière
 
 - `git reset HEAD <fichier>`  
   Retire un fichier de la zone de staging (préparation).
