@@ -13,7 +13,7 @@
 
 ---
 
-## Commit & historique
+## B-Commit & historique
 
 - `git commit -m "message de commit"`  
   Enregistre les fichiers en staging dans l'historique local avec un message clair.
@@ -29,7 +29,7 @@
 
 ---
 
-## B-Gestion des branches
+## C-Gestion des branches
 
 - `git branch`  
   Liste les branches locales, indique la branche courante.
@@ -57,7 +57,7 @@
 
 ---
 
-## C-Configuration des dépôts distants & push
+## D-Configuration des dépôts distants & push
 
 - `git remote add origin <url>`  
   Configure l’URL du dépôt distant (à faire une seule fois).
@@ -76,7 +76,7 @@
 
 ---
 
-## D-raccourci  :
+## E-raccourci  :
 
 ---
 
@@ -121,7 +121,7 @@
 
 ---
 
-### Résumé rapide
+#### Résumé rapide
 
 | Commande               | Fonction                                           |
 | ---------------------- | -------------------------------------------------- |
@@ -149,7 +149,7 @@ git switch -c feature/nouvelle-fonctionnalite
 
 ---
 
-## Comparaison rapide
+#### Comparaison rapide
 
 | Commande                | Action                                    |
 | ----------------------- | ----------------------------------------- |
@@ -164,7 +164,7 @@ Tu peux aussi simplement changer de branche existante avec :
 git switch <nom_branche>
 ```
 
-##E-Annuler et revenir en arrière
+##F-Annuler et revenir en arrière
 
 - `git reset HEAD <fichier>`  
   Retire un fichier de la zone de staging (préparation).
@@ -180,7 +180,7 @@ git switch <nom_branche>
 
 ---
 
-## F-Autres commandes utiles
+## G-Autres commandes utiles
 
 - `git stash`  
   Sauvegarde temporairement les modifications non commités.
@@ -193,7 +193,7 @@ git switch <nom_branche>
 
 ---
 
-## G- Supprimer une branche
+## H- Supprimer une branche
 
 ```bash
 # Supprimer une branche distante (GitHub)
