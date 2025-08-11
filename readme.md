@@ -76,6 +76,94 @@
 
 ---
 
+##  raccourci  :
+
+---
+
+### 1. `git commit -am "message de commit"`
+
+* **Qu’est-ce que ça fait ?**
+  Cette commande fait deux choses en une seule ligne :
+
+  * `-a` : ajoute automatiquement **tous les fichiers modifiés déjà suivis par Git** à la zone de staging (les fichiers déjà connus par Git, modifiés, mais PAS les nouveaux fichiers non suivis).
+  * `-m "message"` : crée un commit avec le message donné.
+
+* **Attention :**
+
+  * Elle **n’ajoute pas les nouveaux fichiers non suivis** (non encore ajoutés via `git add`).
+  * C’est un raccourci pratique quand tu as modifié des fichiers existants et que tu veux rapidement les committer.
+
+* **Exemple d’utilisation :**
+
+  ```bash
+  git commit -am "Correction du bug affichage"
+  ```
+
+---
+
+### 2. `git checkout -b <nom_branche>`
+
+* **Qu’est-ce que ça fait ?**
+  Cette commande **crée une nouvelle branche** nommée `<nom_branche>` **et bascule dessus immédiatement**.
+
+* **Explications :**
+
+  * `-b` = "branch" → création d’une branche.
+  * Sans `-b`, `git checkout <nom_branche>` sert juste à changer de branche.
+
+* **Exemple :**
+
+  ```bash
+  git checkout -b feature/nouvelle-fonctionnalite
+  ```
+
+  Cela crée la branche `feature/nouvelle-fonctionnalite` à partir de la branche courante et s’y positionne.
+
+---
+
+### Résumé rapide
+
+| Commande               | Fonction                                           |
+| ---------------------- | -------------------------------------------------- |
+| `git commit -am "msg"` | Ajouter fichiers modifiés (suivis) + commit        |
+| `git checkout -b nom`  | Créer une nouvelle branche + se positionner dessus |
+
+---
+
+
+### 3. `git switch -c <nom_branche>`
+
+* **Fonction** :
+  Cette commande crée une nouvelle branche `<nom_branche>` et bascule dessus, comme `git checkout -b`.
+
+* **Exemple d’utilisation** :
+
+```bash
+git switch -c feature/nouvelle-fonctionnalite
+```
+
+* **Avantages** :
+
+  * Plus explicite et claire que `git checkout -b` qui fait plusieurs choses.
+  * `git switch` est dédiée uniquement à changer de branche, ce qui rend les commandes plus lisibles.
+
+---
+
+## Comparaison rapide
+
+| Commande                | Action                                    |
+| ----------------------- | ----------------------------------------- |
+| `git checkout -b <nom>` | Crée + change de branche (ancienne façon) |
+| `git switch -c <nom>`   | Crée + change de branche (nouvelle façon) |
+
+---
+
+Tu peux aussi simplement changer de branche existante avec :
+
+```bash
+git switch <nom_branche>
+```
+
 ## Annuler et revenir en arrière
 
 - `git reset HEAD <fichier>`  
